@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Basic Mathematics</title>
+</head>
+<body>
+
+
+    
+
+    <section>
+        <header>
+            <h1 class="display-1" style="font-size: 50px; text-align: center; font-weight: 700; color: rgb(39, 77, 110);">Basics Mathematics</h1>
+        </header>
+        <div class="cal-head">
+            <div style=" justify-content: center; padding: 20px; " class="input-group gap-4" >
+                <div style="font-size: 30px; " class="input-group-prepend">
+                    <span style="color: rgb(102, 152, 195); font-size: 30px; font-weight: bold;" class="input-group-text" id="">First and last name</span>
+                    <input type="number" name="number" id="num1">
+                </div>
+        
+                
+                <div style="font-size: 30px; ">
+                    <span style="
+                        color: rgb(102, 152, 195);
+                        font-size: 30px; font-weight: bold;" class="input-group-text" id="">First and last name</span>
+                    <input type="number" name="number" id="num2">
+                </div>
+        
+            </div>
+            <div class="btnall row">
+                <button
+                onclick="calculate('add')"
+                class="btn btn-primary btn-lg col-lg-3 col-sm-6"
+                > Addition +
+                </button>
+                <button 
+                class="btn btn-primary btn-lg col-lg-3 col-sm-6" role="button" aria-disabled="true"
+                onclick="calculate('subtract')"
+                >
+                    Subtraction -
+                </button>
+                <button 
+                class="btn btn-primary btn-lg col-lg-3 col-sm-6" role="button" aria-disabled="true"
+                onclick="calculate('multiply')"
+                > Multiplication *
+                </button>
+                <button 
+                class="btn btn-primary btn-lg col-lg-3 col-sm-6" role="button" aria-disabled="true"
+                onclick="calculate('divide')"
+                >
+                    Division /
+                </button>
+            </div>
+        
+            <div class="result">
+                <div >
+                    Result :  <span id="result"> 0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="javascript/bootstrap.bundle.js"></script>
+    <script src="javascript/script.js"></script>
+    
+</body>
+</html>
+
+

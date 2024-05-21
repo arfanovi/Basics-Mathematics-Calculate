@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    text-align: center;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+ 
+} 
+
+.btnall{
+
+    padding: 15px;
+    row-gap:5px;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+.cal-head{
+    background-color: rgb(166, 166, 116);
+    height: 70vh;
+    /* width: 80vh; */
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.result{
+   
+    font-size: 40px;
+    font-weight: 600;
+    
+
+}
